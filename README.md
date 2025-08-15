@@ -70,7 +70,7 @@ project-root/
 ### 1. Clone & Setup
 
 ```bash
-git clone [<repository-url>](https://github.com/JxTIN21/Codebase)
+git clone https://github.com/JxTIN21/Codebase
 cd codebase-search-explainer
 ```
 
