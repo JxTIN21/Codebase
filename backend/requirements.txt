@@ -14,8 +14,9 @@ transformers
 sentence-transformers
 huggingface_hub
 
-# Just the text splitter - no dependencies conflicts
-langchain-text-splitters==0.0.1
+# LangChain components - add langchain-core for Document class
+langchain-core
+langchain-text-splitters
 
 # Vector database
 chromadb
