@@ -70,7 +70,7 @@ project-root/
 ### 1. Clone & Setup
 
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/JxTIN21/Codebase)
 cd codebase-search-explainer
 ```
 
@@ -100,8 +100,6 @@ GROQ_API_KEY=your_groq_api_key_here
 GROQ_MODEL=llama3-8b-8192
 CHROMA_PERSIST_DIR=./chroma_db
 DEBUG=true
-MAX_FILE_SIZE_MB=10
-SUPPORTED_EXTENSIONS=.py,.js,.jsx,.ts,.tsx,.java,.cpp,.c,.h,.cs,.php,.rb,.go,.rs,.swift,.kt,.html,.css,.sql,.json,.yaml,.yml,.md,.txt
 ```
 
 ### 3. Frontend Setup
