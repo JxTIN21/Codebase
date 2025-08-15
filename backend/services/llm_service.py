@@ -2,7 +2,7 @@ import asyncio
 import logging
 from typing import List, Dict, Any
 from groq import Groq
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 from config import GROQ_API_KEY, GROQ_MODEL
 
