@@ -14,9 +14,8 @@ transformers
 sentence-transformers
 huggingface_hub
 
-# LangChain - older versions that work together
-langchain==0.0.352
-langchain-community==0.0.28
+# Just the text splitter - no dependencies conflicts
+langchain-text-splitters==0.0.1
 
 # Vector database
 chromadb
