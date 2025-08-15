@@ -1,10 +1,10 @@
 # Core web framework
-fastapi==0.104.1
-uvicorn==0.24.0
+fastapi==0.110.0  # Latest version with better Pydantic v2 support
+uvicorn==0.27.0
 python-multipart==0.0.6
 python-dotenv==1.0.0
 groq==0.4.1
-pydantic==2.5.0
+pydantic==2.5.0  # Keep your v2
 aiofiles==23.2.1
 
 # ML packages - using compatible versions
@@ -14,9 +14,11 @@ transformers
 sentence-transformers
 huggingface_hub
 
-# LangChain
-langchain
-langchain-community
+# LangChain - specify newer versions
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+langsmith>=0.1.0
 
 # Vector database
 chromadb
