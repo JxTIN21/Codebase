@@ -14,10 +14,9 @@ transformers
 sentence-transformers
 huggingface_hub
 
-# LangChain - pin to compatible versions
-langchain==0.0.354
-langchain-community==0.0.38
-langsmith>=0.0.87,<0.1.0
+# LangChain - older versions that work together
+langchain==0.0.352
+langchain-community==0.0.28
 
 # Vector database
 chromadb
