@@ -1,22 +1,22 @@
 # Core web framework
 fastapi==0.104.1
-uvicorn[standard]==0.24.0
+uvicorn==0.24.0
 python-multipart==0.0.6
 python-dotenv==1.0.0
+groq==0.4.1
 pydantic==2.5.0
 aiofiles==23.2.1
 
-# AI/ML packages - using broader version ranges for better wheel availability
-groq>=0.4.0
-numpy>=1.24.0,<2.0.0
-torch>=2.1.0,<2.2.0
-transformers>=4.30.0
-sentence-transformers>=2.2.0
-huggingface_hub>=0.15.0,<0.20.0
+# ML packages - using compatible versions
+numpy
+torch
+transformers
+sentence-transformers
+huggingface_hub
 
-# LangChain - using latest compatible versions
-langchain>=0.1.0
-langchain-community>=0.0.38
+# LangChain
+langchain
+langchain-community
 
-# Vector database - try without pinned version first
-chromadb>=0.4.0
+# Vector database
+chromadb
