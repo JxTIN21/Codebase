@@ -257,7 +257,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🐛 **Bug Reports**: [Open an issue](../../issues)
 - 💡 **Feature Requests**: [Start a discussion](../../discussions)
-- 📧 **Contact**: [your-email@domain.com](mailto:your-email@domain.com)
+- 📧 **Contact**: [jatinsrivastava4104@gmail.com](mailto:jatinsrivastava4104@gmail.com)
 
 ---
 
