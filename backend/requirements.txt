@@ -14,9 +14,10 @@ transformers
 sentence-transformers
 huggingface_hub
 
-# LangChain components - add langchain-core for Document class
+# LangChain components
 langchain-core
 langchain-text-splitters
+langchain-community
 
 # Vector database
 chromadb
